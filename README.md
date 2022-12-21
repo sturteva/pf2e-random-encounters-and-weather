@@ -11,9 +11,9 @@ Quest for the Frozen Flame Levels 1-3
 ## Installation
 
 Currently Only version 10 is supported
-Install by either searching for xdy-pf2e-workbench in [FoundryVTT's](https://foundryvtt.com/) Module tab and clicking
+Install by either searching for pf2e-random-encounters-and-weather in [FoundryVTT's](https://foundryvtt.com/) Module tab and clicking
 Install or by clicking the 'Install Module' button in that tab and entering the following as the Manifest
-URL: [ANDREW PLACE URL HERE]
+URL: https://raw.githubusercontent.com/sturteva/pf2e-random-encounters-and-weather/master/module.json
 
 ### Patch Notes:
 
