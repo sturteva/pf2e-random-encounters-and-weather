@@ -3,7 +3,7 @@
   "title": "PF2e Random Encounters And Weather",
   "description": "An attempt at utilizing what information we have from the Pathfinder 2e Pathfinder Kingmaker Companion Guide to create random weather based off of region, and random encounters based off of adventures"
   "url": "https://github.com/ExampleRepo/PF2e-Example",
-  "version": "0.1",
+  "version": "0.1.2",
   "authors": [
     {"name": "sturteva"}
   ],
