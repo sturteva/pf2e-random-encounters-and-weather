@@ -1,0 +1,96 @@
+{
+  "id": "pf2e-random-encounters-and-weather",
+  "title": "PF2e Random Encounters And Weather",
+  "description": "An attempt at utilizing what information we have from the Pathfinder 2e Pathfinder Kingmaker Companion Guide to create random weather based off of region, and random encounters based off of adventures"
+  "url": "https://github.com/ExampleRepo/PF2e-Example",
+  "version": "0.1",
+  "authors": [
+    {"name": "sturteva"}
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "packs": [
+	{
+		"label": "PF2e Random Weather and Encounters",
+		"type": "Macro",
+		"name": "pf2e-random-weather-and-encounters",
+		"path": "./packs/pf2e-random-weather-and-encounters.db",
+		"system": "pf2e",
+		"package": "pf2e-random-encounters-and-weather",
+		"private": false
+	},
+	{
+		"label": "PF2e Random Weather Effects",
+		"type": "Item",
+		"name": "pf2e-random-weather-effects",
+		"path": "./packs/pf2e-random-weather-effects.db",
+		"system": "pf2e",
+		"package": "pf2e-random-encounters-and-weather",
+		"private": false
+	},
+	{
+		"label": "PF2e Random Weather Event Hazards",
+		"type": "Actor",
+		"name": "pf2e-random-weather-event-hazards",
+		"path": "./packs/pf2e-random-weather-event-hazards.db,
+		"system": "pf2e",
+		"package": "pf2e-random-encounters-and-weather",
+		"private": false
+	},
+	{
+		"label": "PF2e RandWeather",
+		"type": "RollTable",
+		"name": "pf2e-randweather",
+		"path": "./packs/pf2e-randweather.db",
+		"system": "pf2e",
+		"package": "pf2e-random-encounters-and-weather",
+		"private": false
+	},
+	{
+		"label": "QftFF Random Encounter Journals",
+		"type": "JournalEntry",
+		"name": "qftff-random-encounter-journals",
+		"path": "./packs/qftff-random-encounter-journals.db",
+		"system": "pf2e",
+		"package": "pf2e-random-encounters-and-weather",
+		"private": false
+	},
+	{
+		"label": "QftFF Random Encounters",
+		"type": "JournalEntry",
+		"name": "qftff-random-encounters",
+		"path": "./packs/qftff-random-encounters.db",
+		"system": "pf2e",
+		"package": "pf2e-random-encounters-and-weather",
+		"private": false
+	}	
+  ]
+  
+  "flags":[
+	"pf2e-random-encounters-and-weather":{
+		"pf2e-homebrew":{
+			"creatureTraits":{
+				"weather": "Weather"
+			}
+			"equipmentTraits":{
+				"weather": "Weather"
+			}
+		}
+	}
+  ],
+   "url": "https://github.com/sturteva/pf2e-random-encounters-and-weather",
+  "manifest": "https://raw.githubusercontent.com/sturteva/pf2e-random-encounters-and-weathe/main/module.json",
+  "download": "https://github.com/sturteva/pf2e-random-encounters-and-weather/archive/refs/heads/main.zip"
+}
