@@ -5,7 +5,10 @@
   "url": "https://github.com/ExampleRepo/PF2e-Example",
   "version": "0.1.2",
   "authors": [
-    {"name": "sturteva"}
+    	{
+	  "name": "sturteva",
+	  "discord": "Harrowed Wizard (he/him)#7364"	
+	}
   ],
   "compatibility": {
     "minimum": "10.285",
@@ -76,8 +79,7 @@
 		"package": "pf2e-random-encounters-and-weather",
 		"private": false
 	}	
-  ]
-  
+  ],  
   "flags":[
 	"pf2e-random-encounters-and-weather":{
 		"pf2e-homebrew":{
@@ -90,7 +92,7 @@
 		}
 	}
   ],
-   "url": "https://github.com/sturteva/pf2e-random-encounters-and-weather",
+  "url": "https://github.com/sturteva/pf2e-random-encounters-and-weather",
   "manifest": "https://raw.githubusercontent.com/sturteva/pf2e-random-encounters-and-weathe/master/module.json",
   "download": "https://github.com/sturteva/pf2e-random-encounters-and-weather/archive/refs/heads/main.zip"
 }
