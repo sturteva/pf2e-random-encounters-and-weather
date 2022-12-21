@@ -84,7 +84,7 @@
 		"pf2e-homebrew":{
 			"creatureTraits":{
 				"weather": "Weather"
-			}
+			},
 			"equipmentTraits":{
 				"weather": "Weather"
 			}
