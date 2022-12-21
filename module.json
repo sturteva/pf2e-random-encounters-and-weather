@@ -68,7 +68,7 @@
 		},
 		{
 			"label": "QftFF Random Encounters",
-			"type": "JournalEntry",
+			"type": "RollTable",
 			"name": "qftff-random-encounters",
 			"path": "./packs/qftff-random-encounters.db",
 			"system": "pf2e",
