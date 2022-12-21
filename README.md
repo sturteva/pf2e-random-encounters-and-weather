@@ -1,8 +1,12 @@
 # pf2e-random-encounters-and-weather
 
-## Current features (order by setting section)
+## Current features 
 
-Put features here
+### Random Weather ###
+Northern Saga Lands Random Weather Generation
+
+### Random Encounters ###
+Quest for the Frozen Flame Levels 1-3
 
 ## Installation
 
