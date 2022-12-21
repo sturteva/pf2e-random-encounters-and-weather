@@ -2,7 +2,7 @@
 	"id": "pf2e-random-encounters-and-weather",
 	"title": "PF2e Random Encounters And Weather",
 	"description": "An attempt at utilizing what information we have from the Pathfinder 2e Pathfinder Kingmaker Companion Guide to create random weather based off of region, and random encounters based off of adventures",
-	"version": "0.1.2",
+	"version": "0.1.4",
 	"authors": [{
 		"name": "sturteva",
 		"discord": "Harrowed Wizard (he/him)#7364"
