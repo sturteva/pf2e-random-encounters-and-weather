@@ -1,19 +1,21 @@
 # pf2e-random-encounters-and-weather
 
 ## Current features 
+**NOTE** If you're doing Kingmaker specifically, I would recommend using Bernahrd's PF2e Kingmaker Tools (https://foundryvtt.com/packages/pf2e-kingmaker-tools) it is much more robust than what I'm doing here!
+
+Currently, two sets of macros to generate Random Encounters and Random Weather. It is built using the PF2e Kingmaker Companion Guide's Random Weather rules and the Random Encounter rules found in the PF2e Kingmaker Adventure Path. I modified them to account for my Quest for the Frozen Flame game in the Northern Saga Lands.
+
+I hope to return to this and add at least the Kingmaker Random Encounters since that is just data entry. I'll also try to update it as I go in my Quest for the Frozen Flame campaign. If others would like to contribute to the data entry/macro creation for different regions throughout, feel free to put in some PRs!
 
 ### Random Weather ###
 Northern Saga Lands Random Weather Generation
 
 ### Random Encounters ###
-Quest for the Frozen Flame Levels 1-3
+Quest for the Frozen Flame Levels 1-4
 
 ## Installation
 
-Currently Only version 10 is supported
-Install by either searching for pf2e-random-encounters-and-weather in [FoundryVTT's](https://foundryvtt.com/) Module tab and clicking
-Install or by clicking the 'Install Module' button in that tab and entering the following as the Manifest
-URL: https://raw.githubusercontent.com/sturteva/pf2e-random-encounters-and-weather/master/module.json
+Currently, only Foundry version 10 is supported. Install by either searching for pf2e-random-encounters-and-weather in FoundryVTT's Module tab and clicking Install or by clicking the 'Install Module' button in that tab and entering the following as the Manifest URL: https://raw.githubusercontent.com/sturteva/pf2e-random-encounters-and-weather/master/module.json
 
 ### Patch Notes:
 
